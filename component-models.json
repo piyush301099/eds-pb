@@ -219,21 +219,18 @@
     "id": "primary-hero",
     "fields": [
       {
-        "component": "select",
-        "name": "PrimarybackgroundType",
-        "label": "Primary Background Type",
-        "description": "Select Background Type Primary Hero",
-        "required": true,
-        "options": [
-          {
-            "name": "Image",
-            "value": "imageSlide"
-          },
-          {
-            "name": "Video",
-            "value": "videoSlide"
-          }
-        ]
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
