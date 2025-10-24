@@ -142,3 +142,4 @@ const observer = new MutationObserver(() => decorateRichtext());
 observer.observe(document, { attributeFilter: ['data-richtext-prop'], subtree: true });
 
 showPercentage(document.querySelector('main'));
+
