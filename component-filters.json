@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "primary-hero"
+      "primary-hero",
+      "primary-hero-one"
     ]
   },
   {
@@ -43,5 +44,9 @@
   {
     "id": "primary-hero",
     "components": ["primary-hero"]
+  },
+  {
+    "id": "primary-hero-one",
+    "components": ["primary-hero-one"]
   }
 ]
