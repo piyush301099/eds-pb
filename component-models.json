@@ -214,5 +214,27 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "primary-hero",
+    "fields": [
+      {
+        "component": "select",
+        "name": "PrimarybackgroundType",
+        "label": "Primary Background Type",
+        "description": "Select Background Type Primary Hero",
+        "required": true,
+        "options": [
+          {
+            "name": "Image",
+            "value": "imageSlide"
+          },
+          {
+            "name": "Video",
+            "value": "videoSlide"
+          }
+        ]
+      }
+    ]
   }
 ]
