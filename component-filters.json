@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "column-section"
     ]
   },
   {
@@ -15,9 +16,19 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "primary-hero",
-      "primary-hero-one"
+      "fragment"
+    ]
+  },
+  {
+    "id": "column-section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "cards",
+      "columns",
+      "fragment"
     ]
   },
   {
@@ -40,13 +51,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "primary-hero",
-    "components": ["primary-hero"]
-  },
-  {
-    "id": "primary-hero-one",
-    "components": ["primary-hero-one"]
   }
 ]
